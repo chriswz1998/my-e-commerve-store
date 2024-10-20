@@ -1,8 +1,6 @@
 import { Image as ImageType } from '@/types'
 import { FC } from 'react'
-import { Tab, TabGroup, TabList } from '@headlessui/react'
-import Image from 'next/image'
-import { cn } from '@/lib/utils'
+import { TabGroup, TabList } from '@headlessui/react'
 interface GalleryTabProps {
   image: ImageType
 }

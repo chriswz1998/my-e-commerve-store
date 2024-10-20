@@ -6,8 +6,6 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import qs from 'query-string'
 import Button from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
-import { Simulate } from 'react-dom/test-utils'
-import select = Simulate.select
 
 interface FilterProps {
   valueKey: string
