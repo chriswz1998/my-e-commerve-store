@@ -1,8 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.mjs
+export default {
   images: {
-    domains: ['res.cloudinary.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: '', // 默认情况下可以留空
+        pathname: '/drrxd8q4g/**' // 可以精确匹配路径
+      }
+    ]
   }
 }
-
-export default nextConfig
