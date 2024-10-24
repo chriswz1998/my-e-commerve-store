@@ -13,6 +13,9 @@ const Navbar = async () => {
           <Link href={'/'} className={'ml-4 flex lg:ml-0 gap-x-2'}>
             <p className={'font-bold text-xl'}>STORE</p>
           </Link>
+          <Link href={'/aboutUs'} className={'ml-4 flex lg:ml-0 gap-x-2'}>
+            <p className={'font-bold text-xl'}>About US</p>
+          </Link>
           <MainNav data={categories} />
           <NavbarActions />
         </div>
